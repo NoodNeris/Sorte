@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Teste da Sorte - O Desafio do PIX!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #121212;
+            color: white;
+            overflow: hidden;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            display: inline-block;
+            animation: fadeIn 2s ease-in-out;
+        }
+        img {
+            width: 200px;
+            margin-top: 20px;
+            animation: pulse 2s infinite;
+        }
+        p {
+            font-size: 18px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎲 Teste sua Sorte! 🎲</h1>
+        <p>Já ouviu falar que algumas pessoas têm mais sorte do que outras? Será que você é um desses sortudos?</p>
+        <p>Faça um PIX e descubra! Dizem que quanto maior o valor, mais a sorte aparece... Será verdade? Só testando para saber! ✨</p>
+        <p><strong>Chave PIX:</strong> JairJunior256@gmail.com</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=00020126620014br.gov.bcb.pix0123jairjunior256@gmail.com0213Boa%20Sorte%20%3C3%205204000053039865802BR5905Neris6008salvador62070503***6304E49C" alt="QR Code PIX">
+    </div>
+</body>
+</html>
+
